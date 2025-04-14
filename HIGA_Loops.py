@@ -44,7 +44,7 @@ while (var3 < 50):          # While loop: While var3 is less than 50, the rest o
 
 # These are all global variables. Global variables can be used anywhere in the file. We assign these variables outside the scope of the loop so that we can manipulate them inside the loop while also maintaining their integrity throughout the file.
 starting_value = 12                            # Setting a global variable for the starting point of the loop
-number_of_iterations = 0                       # Setting a global variable for the number of times we can divide 12 by 2 such that the modulus becomes less than 0.0001
+number_of_iterations = 0                       # Setting a global variable for the number of times we can divide 12 by 2 such that the quotient becomes less than 0.0001
 amount_of_change = 3                           # Setting a global variable for the modulus #0.0001000000000000001
 
 #scope
